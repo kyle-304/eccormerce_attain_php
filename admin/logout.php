@@ -8,6 +8,5 @@ session_unset();
 session_destroy();
 
 // Redirect to the login page
-header("Location: admin_login.php");  // Adjust the path based on your directory structure
-exit();
+header("Location: admin_login.php"); 
 ?>

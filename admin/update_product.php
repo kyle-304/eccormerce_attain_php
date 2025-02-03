@@ -1,5 +1,5 @@
 <?php
-include_once "../db_config.php";  // Adjust the path based on your directory structure
+include_once "../db_config.php";
 
 // Check if the admin is not logged in, redirect to admin login page
 if (!isset($_SESSION['admin_id'])) {
